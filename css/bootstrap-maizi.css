@@ -39,3 +39,41 @@ body {
     text-align: center;
     width: 100%;
 }
+
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+
+#bbs {
+    margin-top: 90px;
+    text-align: center;
+}
+
+#bbs img{
+    margin-left: 130px;
+}
+
+#bbs h3{
+    font-weight: bold;
+}
+
+#bbs h3, #bbs p{
+    color: black;
+}
+
+#bbs .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
