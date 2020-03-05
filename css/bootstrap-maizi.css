@@ -198,3 +198,8 @@ body {
 #contact input[type="submit"]:hover{
     background: rgb(44, 142, 120);
 }
+
+footer{
+    text-align: center;
+    margin: 15px 0;
+}
