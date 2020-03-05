@@ -78,7 +78,7 @@ body {
     box-shadow: 1px 1px 4px #ccc;
 }
 
-#html5, #bootstrap{
+#html5{
     padding: 80px 0px 80px 0px;
     background: #f8f8f8;
 }
@@ -95,4 +95,35 @@ body {
     text-align: center;
     line-height: 40px;
     margin-right: 40px;
+}
+
+#bootstrap{
+    padding: 80px 0px 80px 0px;
+}
+
+#courses{
+    background: #f8f8f8;
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+}
+
+#courses h2{
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+#courses .btn{
+    background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 20px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+
+#coursea .btn:hover{
+    background: #40D2B1;
+    color: #fff;
 }
