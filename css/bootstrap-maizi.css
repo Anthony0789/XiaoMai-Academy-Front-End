@@ -32,7 +32,7 @@ body {
 }
 
 #home{
-    padding-top: 70px;
+    margin-top: 70px;
     background: url("../images/home-bg.jpg");
     background-size: cover;
     color: #ffffff;
@@ -42,7 +42,7 @@ body {
 
 #home h1{
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 25px;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 #bbs {
-    padding: 80px 0px 80px 0px;
+    padding: 90px 0px 80px 0px;
     text-align: center;
 }
 
@@ -153,4 +153,48 @@ body {
 #app img{
     width: 555px;
     height: 300px;
+}
+
+#contact{
+    background: url("../images/contact-bg.png") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#contact h2{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#contact span{
+    margin-right: 15px;
+}
+
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#contact textarea.form-control{
+    height: auto;
+}
+
+#contact input[type="submit"]{
+    background: #40D2B1;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
 }
