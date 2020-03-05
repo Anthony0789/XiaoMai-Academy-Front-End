@@ -28,11 +28,11 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.7);
-    padding: 90px 0;
+    padding: 80px 0;
 }
 
 #home{
-    padding-top: 80px;
+    padding-top: 70px;
     background: url("../images/home-bg.jpg");
     background-size: cover;
     color: #ffffff;
@@ -78,9 +78,13 @@ body {
     box-shadow: 1px 1px 4px #ccc;
 }
 
-#html5{
-    padding-top: 80px;
+#html5, #bootstrap{
+    padding: 80px 0px 80px 0px;
     background: #f8f8f8;
+}
+
+#html5 h2{
+    font-weight: bold;
 }
 
 .mai-icon{
